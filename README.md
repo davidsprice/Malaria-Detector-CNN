@@ -26,11 +26,15 @@ Accuracy : 95.03%
 
 Receiver Operating Characteristics (ROC) and Confusion Matrix
 
+(add image here)
+
 ### 3-layer fully connected CNN
 
 Accuracy : %
 
 Receiver Operating Characteristics (ROC) and Confusion Matrix
+
+(add image here)
 
 ![](Final_Quadcopter_Reward_Plot.png)
 
