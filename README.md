@@ -48,7 +48,7 @@ conda create -n malaria-detector-cnn python=3.6 matplotlib numpy pandas keras-gp
 source activate malaria-detector-cnn
 ~~~~
 
-3. Preprocessing Steps
+3. Pre-processing Steps
 
 First, download the image set from <a href="https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria">“Malaria Cell Images Dataset - Cell Images for Detecting Malaria”</a>, and then establish the following folder structure of the same folder in which the notebook is being run:
    * /cell_images_full
@@ -73,13 +73,13 @@ First, download the image set from <a href="https://www.kaggle.com/iarunava/cell
             * /uninfected - 10 images
 
 For a complete listing of how the images were divided between the train, validation, and test datasets, refer to the following files:
-    /ground_truth_files/ground_truth_full - COMPLETE.xls
-    /ground_truth_files/ground_truth_subset - COMPLETE.xls
+    * /ground_truth_files/ground_truth_full - COMPLETE.xls
+    * /ground_truth_files/ground_truth_subset - COMPLETE.xls
 
 Also, create the following subfolders in the
-    /prediction_files - for storing the prediction from the models using the test set of images
-    /ground_truth_files - for storing the "truth" of image classification (parasitized or uninfected)
-    /saved_models - for storing the best weights from each model
+    * /prediction_files - for storing the prediction from the models using the test set of images
+    * /ground_truth_files - for storing the "truth" of image classification (parasitized or uninfected)
+    * /saved_models - for storing the best weights from each model
 
 4. Create an [IPython kernel](https://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the malaria-detector-cnn environment.
 
