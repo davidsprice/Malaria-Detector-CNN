@@ -12,31 +12,24 @@ Malaria is “a mosquito-borne disease caused by a parasite. People with malaria
 ## Problem Type
 Classification of large dataset (>27K images)
 
-## Benchmark
+## Results
+
+### Benchmark
 A benchmark was established using a 1-layer CNN.  The model design is shown in Appendix A.
 
-Accuracy : 92.69%
+Accuracy : 89.95%
 
 Receiver Operating Characteristics (ROC) and Confusion Matrix
 
-## Full Model
-A full model was established using a 3-layer fully connected CNN.  The model design is shown in Appendix B.
-
-Accuracy : 95.03%
-
-Receiver Operating Characteristics (ROC) and Confusion Matrix
-
-(add image here)
+![](ROC_and_CM_Results-Benchmark.png)
 
 ### 3-layer fully connected CNN
 
-Accuracy : %
+Accuracy : 95.17%
 
 Receiver Operating Characteristics (ROC) and Confusion Matrix
 
-(add image here)
-
-![](Final_Quadcopter_Reward_Plot.png)
+![](ROC_and_CM_Results-Full.png)
 
 # Project Instructions
 1. Clone the repository and navigate to the downloaded folder.
