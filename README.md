@@ -73,13 +73,13 @@ First, download the image set from <a href="https://www.kaggle.com/iarunava/cell
             * /uninfected - 10 images
 
 For a complete listing of how the images were divided between the train, validation, and test datasets, refer to the following files:
-    * /ground_truth_files/ground_truth_full - COMPLETE.xls
-    * /ground_truth_files/ground_truth_subset - COMPLETE.xls
+  * /ground_truth_files/ground_truth_full - COMPLETE.xls
+  * /ground_truth_files/ground_truth_subset - COMPLETE.xls
 
-Also, create the following subfolders in the
-    * /prediction_files - for storing the prediction from the models using the test set of images
-    * /ground_truth_files - for storing the "truth" of image classification (parasitized or uninfected)
-    * /saved_models - for storing the best weights from each model
+Also, create the following subfolders in the same folder in which the notebook is being run:
+  * /prediction_files - for storing the prediction from the models using the test set of images
+  * /ground_truth_files - for storing the "truth" of image classification (parasitized or uninfected)
+  * /saved_models - for storing the best weights from each model
 
 4. Create an [IPython kernel](https://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the malaria-detector-cnn environment.
 
