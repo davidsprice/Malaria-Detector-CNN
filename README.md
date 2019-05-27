@@ -103,7 +103,7 @@ jupyter notebook Malaria-Detector_CNN.ipynb
 # Appendices
 
 ## Appendix A - Benchmark 1-layer CNN model design
-The model design is shown below:
+The benchmark model design is shown below:
 
     #Initialize the CNN
     benchmark_model = Sequential()
@@ -125,7 +125,7 @@ The model design is shown below:
     benchmark_model.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'])
     
 ## Appendix B - 3-layer fully connected CNN model design
-The following structure was estalished for the model:
+The 3-layer fully connected model design is shown below:
 
     #Initialize the CNN
     model = Sequential()
