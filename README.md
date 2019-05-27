@@ -67,7 +67,9 @@ Structure for full image set (>27k images):
         * /valid
             * /parasitized - 1378 images
             * /uninfected - 1378 images
-    * /cell_images_subset
+
+Structure for subset image set (200 images) for rapid code development:
+   * /cell_images_subset
         * /train
             * /parasitized - 70 images
             * /uninfected - 70 images
