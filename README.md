@@ -55,6 +55,8 @@ source activate malaria-detector-cnn
 3. Pre-processing Steps
 
 First, download the image set from <a href="https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria">“Malaria Cell Images Dataset - Cell Images for Detecting Malaria”</a>, and then establish the following folder structure of the same folder in which the notebook is being run:
+
+Structure for full image set (>27k images)
    * /cell_images_full
         * /train
             * /parasitized - 9645 images
@@ -65,6 +67,8 @@ First, download the image set from <a href="https://www.kaggle.com/iarunava/cell
         * /valid
             * /parasitized - 1378 images
             * /uninfected - 1378 images
+
+Stucture for subset of image set (200 images) for rapid code development
     * /cell_images_subset
         * /train
             * /parasitized - 70 images
