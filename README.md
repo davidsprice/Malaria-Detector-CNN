@@ -14,12 +14,12 @@ Classification of large dataset (>27K images)
 
 ## Results
 
-The results were very good and above the 80% mark established as a goal during the proposal.  The 1-layer CNN used for benchmarking came in with an accuracy of 89.95% while the 3-layer fully connected CNN came in with an accuracy of 95.17%.  The extra computational time was minimal, thus supporting the case of using a 3-layer model for the higher accuracy.  In both cases, the ROC and CM results were in alignment with the benchmark and full model accuracies.
+The results were very good and above the 80% mark established as a goal during the proposal.  The 1-layer CNN used for benchmarking came in with an accuracy of 88.28% while the 3-layer fully connected CNN came in with an accuracy of 95.32%.  The extra computational time was minimal, thus supporting the case of using a 3-layer model for the higher accuracy.  In both cases, the ROC and CM results were in alignment with the benchmark and full model accuracies.
 
 ### Benchmark
 A benchmark was established using a 1-layer CNN.  The model design is shown in Appendix A.
 
-Accuracy : 89.95%
+Accuracy : 88.28%
 
 Receiver Operating Characteristics (ROC) and Confusion Matrix
 
@@ -27,7 +27,7 @@ Receiver Operating Characteristics (ROC) and Confusion Matrix
 
 ### 3-layer fully connected CNN
 
-Accuracy : 95.17%
+Accuracy : 95.32%
 
 Receiver Operating Characteristics (ROC) and Confusion Matrix
 
