@@ -1,5 +1,5 @@
 # Malaria-Detector-CNN
-This project is a 3-layer, fully connected Convolutional Neural Network (CNN) designed to detect cell images which have been parasitized with malaria.  This served as my capstone project for Udacity's Machine Learning nano-degree.
+This project is a 3-layer, fully connected Convolutional Neural Network (CNN) designed to detect cell images which have been parasitized with malaria.  This served as my capstone project for Udacity's Machine Learning nano-degree.  Refer to <a href="https://github.com/davidsprice/Malaria-Detector-CNN/blob/master/MLE%20Nanodegree%20Capstone%20Project%20Report%202%20-%20DSPrice.pdf">"my capstone project report"> for details.
 
 ## Background
 This project was inspired by a Kaggle competition project called <a href="https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria">“Malaria Cell Images Dataset - Cell Images for Detecting Malaria”</a>. The intent is to save humans by developing an algorithm to determine whether image cells show infestation by malaria. The dataset of images (which actually comes from the NIH) contains cell images in two categories – those parasitized by malaria and those uninfected.
