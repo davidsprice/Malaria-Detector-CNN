@@ -14,24 +14,26 @@ Classification of large dataset (>27K images)
 
 ## Results
 
-The results were very good and above the 80% mark established as a goal during the proposal.  The 1-layer CNN used for benchmarking came in with an accuracy of 88.28% while the 3-layer fully connected CNN came in with an accuracy of 95.32%.  The extra computational time was minimal, thus supporting the case of using a 3-layer model for the higher accuracy.  In both cases, the ROC and CM results were in alignment with the benchmark and full model accuracies.
+The results were very good and above the 80% mark established as a goal during the proposal.  The 1-layer CNN used for benchmarking came in with an accuracy of 53.88% while the 3-layer fully connected CNN came in with an accuracy of 95.03%.  The extra computational time was minimal, thus supporting the case of using a 3-layer model for the higher accuracy.  In both cases, the ROC and CM results were not in alignment with the benchmark and full model accuracies, presumably due to overfitting of the evaluate_predictions method.
 
 ### Benchmark
 A benchmark was established using a 1-layer CNN.  The model design is shown in Appendix A.
 
-Accuracy : 88.28%
+Accuracy : 53.88%
 
 Receiver Operating Characteristics (ROC) and Confusion Matrix
 
-![](ROC_and_CM_Results-Benchmark.png)
+![](ROC_Results-Benchmark.png)
+![](CM_Results-Benchmark.png)
 
 ### 3-layer fully connected CNN
 
-Accuracy : 95.32%
+Accuracy : 95.03%
 
 Receiver Operating Characteristics (ROC) and Confusion Matrix
 
-![](ROC_and_CM_Results-Full.png)
+![](ROC_Results-Full.png)
+![](CM_Results-Full.png)
 
 # Project Instructions
 1. Clone the repository and navigate to the downloaded folder.
@@ -109,7 +111,7 @@ The benchmark model design is shown below:
     benchmark_model = Sequential()
 
     #Add convolution layer
-    benchmark_model.add(Conv2D(32, (3, 3), input_shape = (64, 64, 3), activation = 'relu'))
+    benchmark_model.add(Conv2D(1, (3, 3), input_shape = (64, 64, 3), activation = 'relu'))
 
     #Add pooling layer
     benchmark_model.add(MaxPooling2D(pool_size = (2, 2)))
@@ -118,7 +120,7 @@ The benchmark model design is shown below:
     benchmark_model.add(Flatten())
 
     #Add fully connected layer
-    benchmark_model.add(Dense(units = 128, activation = 'relu'))
+    benchmark_model.add(Dense(units = 64, activation = 'relu'))
     benchmark_model.add(Dense(units = 2, activation = 'softmax'))
 
     #Compile the CNN
