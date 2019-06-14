@@ -6,6 +6,8 @@ This project was inspired by a Kaggle competition project called <a href="https:
 
 Malaria is “a mosquito-borne disease caused by a parasite. People with malaria often experience fever, chills, and flu-like illness. Left untreated, they may develop severe complications and die. In 2016 an estimated 216 million cases of malaria occurred worldwide and 445,000 people died, mostly children in the African Region. About 1,700 cases of malaria are diagnosed in the United States each year. The vast majority of cases in the United States are in travelers and immigrants returning from countries where malaria transmission occurs, many from sub-Saharan Africa and South Asia.” Ref <a href="https://www.cdc.gov/parasites/malaria/index.html">“CDC Malaria website”</a>.
 
+![](Sample_cell_images.png)
+
 ## Algorithm Class :
 3-layer, fully connected Convolutional Neural Network (CNN)
 
@@ -24,6 +26,7 @@ Accuracy : 53.88%
 Receiver Operating Characteristics (ROC) and Confusion Matrix
 
 ![](ROC_Results-Benchmark.png)
+
 ![](CM_Results-Benchmark.png)
 
 ### 3-layer fully connected CNN
@@ -33,6 +36,7 @@ Accuracy : 95.03%
 Receiver Operating Characteristics (ROC) and Confusion Matrix
 
 ![](ROC_Results-Full.png)
+
 ![](CM_Results-Full.png)
 
 # Project Instructions
